@@ -28,7 +28,8 @@ WHERE fac.facility_id IN (
     WHERE facility_type = 'Catholic'
 );
 
-![image](https://github.com/user-attachments/assets/0f5ed225-79fa-42f5-9d9b-f8528f9e8251)
+![image](https://github.com/user-attachments/assets/a9d18f24-6b5a-495f-92bb-a83316e85332)
+
 
 Insight: 
 
