@@ -10,7 +10,9 @@ The dataset consists of four tables: facilities_info, education_info, address_in
 * Tables:
   
   &nbsp;facilities_info: Facility details including type, name, and managing authority.
+  
   &nbsp;education_info: Information on education levels offered by facilities.
+  
   &nbsp;address_info: Geographic locations and postal codes.
   
   &nbsp;census_info: Census data related to educational institutions.
