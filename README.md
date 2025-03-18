@@ -30,8 +30,7 @@ The dataset consists of four tables: facilities_info, education_info, address_in
 
 ![image](https://github.com/user-attachments/assets/a9d18f24-6b5a-495f-92bb-a83316e85332)
 
-
-Insight: 
+Insight: This insight is valuable for school boards in determining whether additional Catholic schools need to be established in underserved areas.
 
 ### Query 2: Number of Facilities in Each City
     SELECT ad.city, COUNT(fac.facility_id) AS facility_count
@@ -42,7 +41,7 @@ Insight:
 ![image](https://github.com/user-attachments/assets/84b3d22d-6a3f-4b96-8738-ab15b1f1cd7a)
 
 
-Insight:
+Insight: If a city has a low number of facilities despite a growing population, it signals the need for new schools. Education authorities can prioritize funding for new schools in those areas. Real estate developers may also use this data to invest in areas needing educational facilities, benefiting community planning.
 
 ### Query 3: Education Levels Offered by Facilities
     SELECT
@@ -56,7 +55,7 @@ Insight:
 
 ![image](https://github.com/user-attachments/assets/1478b3f6-e061-4f54-ae53-cb9ff90eb88f)
 
-Insight: 
+Insight: Understanding which education levels are most or least available can help education ministries allocate funding for new schools or curriculum expansion. This query helps identify gaps in early childhood education or secondary schooling across regions.
 
 ### Query 4: Facilities in Each Metropolitan Area (Sorted by Count)
     SELECT census_metropolitan_area_name, COUNT(census_id) AS count_census
@@ -67,7 +66,7 @@ Insight:
 
 ![image](https://github.com/user-attachments/assets/4474a6d5-d86b-4dad-997c-0ba999998389)
 
-Insight: 
+Insight: Large metropolitan areas require more schools to support growing populations. This data can support budget reallocation or expansion programs to bring equity in education access.
 
 ### Query 5: Facility Details in Toronto Census Subdivision
     SELECT fac.facility_id, fac.facility_name, fac.facility_type, ad.address, ad.city, ad.province, ad.postal_code
@@ -78,8 +77,6 @@ Insight:
 
 ![image](https://github.com/user-attachments/assets/4f42ddc3-d3dd-403a-b7fb-a14a452b123b)
 
-Insight: 
-
 ### Query 6: Facility Types with at Least Five Facilities
     SELECT facility_type, COUNT(facility_id) AS facility_count
     FROM facility_info
@@ -87,8 +84,6 @@ Insight:
     HAVING COUNT(facility_id) >= 5;
 
 ![image](https://github.com/user-attachments/assets/d343e01e-6269-4485-a681-941048aebc91)
-
-Insight: 
 
 ### Query 7: Facility Type Count Categorization (High, Medium, Low)
     WITH facility_province_counts AS (
@@ -107,7 +102,7 @@ Insight:
 
 ![image](https://github.com/user-attachments/assets/79c80f12-334a-4eda-83e7-26fd6ae2272a)
 
-Insight: 
+Insight: Provinces with low facility counts may see higher dropout rates or longer student commute times. Addressing this can improve educational outcomes, leading to better employment rates and economic growth in underdeveloped regions.
 
 ### Query 8: Facilities Offering a Combination of Education Levels
     SELECT f.facility_id, f.facility_name, f.facility_type, f.authority_name, e.early_childhood_education_status, e.kindergarten_status, e.elementary_status, e.junior_secondary_status
@@ -134,7 +129,6 @@ Insight: Identifies facilities that provide a full range of education from early
 
 ![image](https://github.com/user-attachments/assets/fc192b28-6acb-42e8-94b2-6f0699e09e78)
 
-Insight: This view helps in analyzing educational facilities that provide senior secondary education and also belong to the Official Language Minority category. It assists in policy planning for minority language education.
-
+Insight: Official language minority schools help support bilingual education. This view helps track their presence across provinces to ensure compliance with language policies.
 
 
