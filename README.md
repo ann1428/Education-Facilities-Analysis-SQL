@@ -129,6 +129,6 @@ Insight: Identifies facilities that provide a full range of education from early
 
 ![image](https://github.com/user-attachments/assets/fc192b28-6acb-42e8-94b2-6f0699e09e78)
 
-Insight: Official language minority schools help support bilingual education. This view helps track their presence across provinces to ensure compliance with language policies.
+Insight: Official language minority schools help support bilingual education. This view helps to track their presence across provinces to ensure compliance with language policies.
 
 
