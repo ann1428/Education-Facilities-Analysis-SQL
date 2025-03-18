@@ -109,17 +109,29 @@ Insight:
 
 ### Query 7: Facility Type Count Categorization (High, Medium, Low)
 WITH facility_province_counts AS (
+  
   SELECT ad.province, f.facility_type, COUNT(*) AS facility_count
+  
   FROM facility_info f
+  
   INNER JOIN address_info ad ON f.address_id = ad.address_id
+  
   GROUP BY ad.province, f.facility_type
+
 )
+
 SELECT fpc.province, fpc.facility_type, fpc.facility_count,
+
        CASE
+       
          WHEN fpc.facility_count >= 10 THEN 'High Facility Count'
+         
          WHEN fpc.facility_count >= 5 THEN 'Medium Facility Count'
+         
          ELSE 'Low Facility Count'
+       
        END AS facility_category
+
 FROM facility_province_counts fpc;
 
 ![image](https://github.com/user-attachments/assets/79c80f12-334a-4eda-83e7-26fd6ae2272a)
@@ -128,15 +140,42 @@ Insight:
 
 ### Query 8: Facilities Offering a Combination of Education Levels
 SELECT f.facility_id, f.facility_name, f.facility_type, f.authority_name, e.early_childhood_education_status, e.kindergarten_status, e.elementary_status, e.junior_secondary_status
+
 FROM facility_info f
+
 LEFT JOIN education_info e ON f.education_id = e.education_id
+
 WHERE e.early_childhood_education_status = true
+
   AND e.kindergarten_status = true
+  
   AND e.elementary_status = true
+  
   AND e.junior_secondary_status = true
+
 ORDER BY f.facility_name;
 
-![image](https://github.com/user-attachments/assets/ed486256-3583-424c-a35c-d5382b121760)
+![image](https://github.com/user-attachments/assets/334be59d-988c-4eb8-bb1d-3bccd4e6134b)
 
 Insight: Identifies facilities that provide a full range of education from early childhood to junior secondary, showing integrated institutions.
+
+### Query 9: Facilities Supporting Senior Secondary and Official Language Minority Schools
+CREATE VIEW facility_education_view AS
+
+SELECT f.facility_id as facility_id, f.facility_name as facility_name, f.facility_type as facility_type, f.authority_name as authority_name,
+e.senior_secondary_status AS Senior_secondary_school, e.official_language_status as Official_Language_Minority_School 
+
+FROM facility_info f
+
+JOIN education_info e ON f.education_id = e.education_id
+
+WHERE e.senior_secondary_status 
+
+AND e.official_language_status ;
+
+![image](https://github.com/user-attachments/assets/fc192b28-6acb-42e8-94b2-6f0699e09e78)
+
+Insight: This view helps in analyzing educational facilities that provide senior secondary education and also belong to the Official Language Minority category. It assists in policy planning for minority language education.
+
+
 
