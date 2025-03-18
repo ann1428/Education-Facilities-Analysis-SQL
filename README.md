@@ -39,7 +39,8 @@ FROM address_info ad
 INNER JOIN facility_info fac ON ad.address_id = fac.address_id
 GROUP BY ad.city;
 
-![image](https://github.com/user-attachments/assets/4f5891a9-62a9-405b-b923-7f9afc405ab0)
+![image](https://github.com/user-attachments/assets/84b3d22d-6a3f-4b96-8738-ab15b1f1cd7a)
+
 
 Insight:
 
@@ -53,7 +54,7 @@ COUNT(CASE WHEN senior_secondary_status = true THEN 1 END) AS count_senior_secon
 COUNT(CASE WHEN official_language_status = true THEN 1 END) AS count_official_language
 FROM education_info;
 
-![image](https://github.com/user-attachments/assets/25c06487-0b10-4c7a-9a61-8e91aaa16e7e)
+![image](https://github.com/user-attachments/assets/1478b3f6-e061-4f54-ae53-cb9ff90eb88f)
 
 Insight: 
 
