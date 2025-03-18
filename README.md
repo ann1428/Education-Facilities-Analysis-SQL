@@ -9,13 +9,13 @@ The dataset consists of four tables: facilities_info, education_info, address_in
 * Source: https://www.statcan.gc.ca/en/lode/databases/odef
 * Tables:
   
-  &nbsp;facilities_info: Facility details including type, name, and managing authority.
+  &nbsp;&nbsp; facilities_info: Facility details including type, name, and managing authority.
   
-  &nbsp;education_info: Information on education levels offered by facilities.
+  &nbsp;&nbsp; education_info: Information on education levels offered by facilities.
   
-  &nbsp;address_info: Geographic locations and postal codes.
+  &nbsp;&nbsp; address_info: Geographic locations and postal codes.
   
-  &nbsp;census_info: Census data related to educational institutions.
+  &nbsp;&nbsp; census_info: Census data related to educational institutions.
 
 ## SQL Queries & Insights
 
