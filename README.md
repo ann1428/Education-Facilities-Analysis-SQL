@@ -38,8 +38,11 @@ Insight:
 
 ### Query 2: Number of Facilities in Each City
 SELECT ad.city, COUNT(fac.facility_id) AS facility_count
+
 FROM address_info ad
+
 INNER JOIN facility_info fac ON ad.address_id = fac.address_id
+
 GROUP BY ad.city;
 
 ![image](https://github.com/user-attachments/assets/84b3d22d-6a3f-4b96-8738-ab15b1f1cd7a)
@@ -63,31 +66,41 @@ Insight:
 
 ### Query 4: Facilities in Each Metropolitan Area (Sorted by Count)
 SELECT census_metropolitan_area_name, COUNT(census_id) AS count_census
+
 FROM census_info
+
 WHERE census_metropolitan_area_name is not null
+
 GROUP BY census_metropolitan_area_name 
+
 ORDER BY count_census DESC;
 
-![image](https://github.com/user-attachments/assets/9b83ba55-862d-4963-95af-56b4fde11623)
+![image](https://github.com/user-attachments/assets/4474a6d5-d86b-4dad-997c-0ba999998389)
 
 Insight: 
 
 ### Query 5: Facility Details in Toronto Census Subdivision
-SELECT fac.facility_id, fac.facility_name, fac.facility_type,
-	   ad.address, ad.city, ad.province, ad.postal_code
+SELECT fac.facility_id, fac.facility_name, fac.facility_type, ad.address, ad.city, ad.province, ad.postal_code
+
 FROM facility_info fac
+
 INNER JOIN address_info ad ON fac.address_id = ad.address_id
+
 INNER JOIN census_info cen ON ad.census_id = cen.census_id
+
 WHERE cen.census_subdivision_name = 'Toronto';
 
-![image](https://github.com/user-attachments/assets/a18a2e99-88f5-454f-a439-a1ee3531a311)
+![image](https://github.com/user-attachments/assets/4f42ddc3-d3dd-403a-b7fb-a14a452b123b)
 
 Insight: 
 
 ### Query 6: Facility Types with at Least Five Facilities
 SELECT facility_type, COUNT(facility_id) AS facility_count
+
 FROM facility_info
+
 GROUP BY facility_type
+
 HAVING COUNT(facility_id) >= 5;
 
 ![image](https://github.com/user-attachments/assets/d343e01e-6269-4485-a681-941048aebc91)
