@@ -1,0 +1,51 @@
+census_id,census_subdivision_name,census_subdivision_id,census_metropolitan_area_name,census_metropolitan_area_id,provider
+301,North Vancouver,5915046,Vancouver,933,Province of British Columbia
+302,Vancouver,5915022,Vancouver,933,Province of British Columbia
+303,Comox,5926005,Courtenay,943,Province of British Columbia
+304,Victoria,5917034,Victoria,935,Province of British Columbia
+305,Kamloops,5933042,Kamloops,925,Province of British Columbia
+306,Toronto,3520005,Toronto,535,Province of Ontario
+307,Toronto,3520005,Toronto,535,Province of Ontario
+308,Toronto,3520005,Toronto,535,Province of Ontario
+309,Toronto,3520005,Toronto,535,Province of Ontario
+310,Toronto,3520005,Toronto,535,Province of Ontario
+311,Orillia,3543052,Orillia,569,Province of Ontario
+312,Orillia,3543052,Orillia,569,Province of Ontario
+313,Orillia,3543052,Orillia,569,Province of Ontario
+314,Essa,3543021,Essa,563,Province of Ontario
+315,Barrie,3543042,Barrie,568,Province of Ontario
+316,Central Elgin,3534020,London,555,Province of Ontario
+317,London,3539036,London,555,Province of Ontario
+318,London,3539036,London,555,Province of Ontario
+319,Ingersoll,3532018,Ingersoll,533,Province of Ontario
+320,London,3539036,London,555,Province of Ontario
+321,St. Thomas,3534021,London,555,Province of Ontario
+322,London,3539036,London,555,Province of Ontario
+323,London,3539036,London,555,Province of Ontario
+324,Thames Centre,3539027,London,555,Province of Ontario
+325,Thunder Bay,3558004,Thunder Bay,595,Province of Ontario
+326,Thunder Bay,3558004,Thunder Bay,595,Province of Ontario
+327,Thunder Bay,3558004,Thunder Bay,595,Province of Ontario
+328,Thunder Bay,3558004,Thunder Bay,595,Province of Ontario
+329,Toronto,3520005,Toronto,535,Province of Ontario
+330,Belleville,3512005,Belleville - Quinte West,522,Province of Ontario
+331,Brant,3529005,Brantford,543,Province of Ontario
+332,Brant,3529005,Brantford,543,Province of Ontario
+333,Brant,3529005,Brantford,543,Province of Ontario
+334,Brant,3529005,Brantford,543,Province of Ontario
+335,Kitchener,3530013,Kitchener - Cambridge - Waterloo,541,Province of Ontario
+336,Kitchener,3530013,Kitchener - Cambridge - Waterloo,541,Province of Ontario
+337,Cambridge,3530010,Kitchener - Cambridge - Waterloo,541,Province of Ontario
+338,Toronto,3520005,Toronto,535,Province of Ontario
+339,Welland,3526032,St. Catharines - Niagara,539,Province of Ontario
+340,Oakville,3524001,Toronto,535,Province of Ontario
+341,Mattawa,3548021,,,Province of Ontario
+342,Casselman,3502044,,,Province of Ontario
+343,Cochrane,3556042,,,Province of Ontario
+344,Cochrane,3556042,,,Province of Ontario
+345,Brockville,3507015,Brockville,512,Province of Ontario
+346,Ottawa,3506008,Ottawa - Gatineau,505,Province of Ontario
+347,Cape Breton,1217030,Cape Breton,225,Province of Nova Scotia
+348,Cape Breton,1217030,Cape Breton,225,Province of Nova Scotia
+349,Montreal,2466023,Montreal,462,Province of Quebec
+350,Mont-Royal,2466072,Montreal,462,Province of Quebec

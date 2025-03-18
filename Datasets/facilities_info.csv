@@ -1,1 +1,51 @@
-
+facility_id,source_id,facility_name,facility_type,authority_name,education_id,address_id
+5002,9344004,Andre-Piolat,Public,Conseil scolaire francophone de la Colombie-Britannique,101,201
+8141,9339111,Anne-Hebert,Public,Conseil scolaire francophone de la Colombie-Britannique,102,202
+7654,9393006,Au Coeur de L'ile,Public,Conseil scolaire francophone de la Colombie-Britannique,103,203
+3342,9361008,Beausoleil,Public,Conseil scolaire francophone de la Colombie-Britannique,104,204
+4041,9324064,Collines-d'or,Public,Conseil scolaire francophone de la Colombie-Britannique,105,205
+2590,667977,Madina Academy,Private,,106,206
+5064,666544,Madinah Islamic School,Private,,107,207
+5135,882911,Madinatul Uloom Academy - Scarborough,Private,,108,208
+3640,666972,Madinatul Uloom Academy Inc,Private,,109,209
+5323,877492,Madinatul-Uloom Academy,Private,,110,210
+2632,419346,Orchard Park Elementary School,Public,Simcoe County DSB,111,211
+5245,902276,Orillia Campus,Public,Simcoe County DSB,112,212
+2672,968729,Orillia Secondary School,Public,Simcoe County DSB,113,213
+5480,122092,Pine River Elementary School,Public,Simcoe County DSB,114,214
+6294,451649,Portage View Public School,Public,Simcoe County DSB,115,215
+2205,451436,Kettle Creek Public School,Public,Thames Valley DSB,116,216
+6082,302716,Knollwood Park Public School,Public,Thames Valley DSB,117,217
+2011,469,Lambeth Public School,Public,Thames Valley DSB,118,218
+8531,438062,Laurie Hawkins Public School,Public,Thames Valley DSB,119,219
+8502,311855,Lester B Pearson School for the Arts,Public,Thames Valley DSB,120,220
+3459,318051,Lockes Public School,Public,Thames Valley DSB,121,221
+4707,923745,London Central Secondary School,Public,Thames Valley DSB,122,222
+3251,923877,London South Collegiate Institute,Public,Thames Valley DSB,123,223
+8321,904503,Lord Dorchester Secondary School,Public,Thames Valley DSB,124,224
+6601,847445,St Pius X Catholic Elementary School,Catholic,Thunder Bay CDSB,125,225
+8666,854727,St Thomas Aquinas Catholic Elementary School,Catholic,Thunder Bay CDSB,126,226
+4196,857998,St Vincent Catholic Elementary School,Catholic,Thunder Bay CDSB,127,227
+7362,863657,TB Catholic Alternative Education,Catholic,Thunder Bay CDSB,128,228
+3817,686247,All Saints Catholic School,Catholic,Toronto CDSB,129,229
+3477,941859,Sir James Whitney/Sagonaska Secondary School,Provincial,Provincial and Demonstration Schools,130,230
+4789,135470,W Ross Macdonald Deaf Blind Elementary School,Provincial,Provincial and Demonstration Schools,131,231
+2371,932310,W Ross Macdonald Deaf Blind Secondary School,Provincial,Provincial and Demonstration Schools,132,232
+5767,417564,W Ross Macdonald Provincial School for Elementary,Provincial,Provincial and Demonstration Schools,133,233
+8335,932302,W Ross Macdonald Provincial Secondary School,Provincial,Provincial and Demonstration Schools,134,234
+5288,690767,Blessed Sacrament Catholic Elementary School,Catholic,Waterloo CDSB,135,235
+7690,693693,Canadian Martyrs Catholic Elementary School,Catholic,Waterloo CDSB,136,236
+3506,697460,Christ The King Catholic Elementary School,Catholic,Waterloo CDSB,137,237
+8175,23549,Academie Alexandre-Dumas,Public,CS Viamonde,138,238
+2452,4367,Ecole elementaire Franco-Niagara,Public,CS Viamonde,139,239
+3719,865368,ESC Sainte-TrinitE,Catholic,CS catholique MonAvenir,140,240
+8841,689730,Ecole secondaire catholique Elisabeth-Bruyere,Catholic,CSDC Franco-Nord,141,241
+5281,695050,Ecole secondaire catholique de Casselman,Catholic,CSDC de l'Est ontarien,142,242
+4185,807796,Ecole catholique Nouveau Regard - Pavillon St-Joseph,Catholic,CSDC des Grandes Rivieres,143,243
+5328,724157,Ecole catholique Nouveau Regard-Pavillon Jeunesse Nord,Catholic,CSDC des Grandes Rivieres,144,244
+6657,855949,Ecole secondaire catholique AcadEmie catholique Ange-Gabriel,Catholic,CSDC du Centre-Est de l'Ontario,145,245
+2263,705373,Ecole secondaire catholique Centre professionnel et technique Minto,Catholic,CSDC du Centre-Est de l'Ontario,146,246
+4599,113,Seton Elementary School,Public,Cape Breton Victoria Regional Centre for Education,147,247
+4932,646,Sherwood Park Education Centre,Public,Cape Breton Victoria Regional Centre for Education,148,248
+3664,887037,Dalkeith,Public,English-MontrEal School Board,149,249
+4432,887041,Dunrae Gardens,Public,English-MontrEal School Board,150,250

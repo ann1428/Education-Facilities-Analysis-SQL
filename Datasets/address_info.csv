@@ -1,0 +1,51 @@
+address_id,address,street_num,street_name,city,province,postal_code,province_code,census_id
+201,380 Kings Rd W North Vancouver BC V7N 2L9,380,kings rd w,North Vancouver,BC,V7N2L9,59,301
+202,7051 Killarney St Vancouver BC V5S 2Y5,7051,killarney st,Vancouver,BC,V5S2Y5,59,302
+203,566 Linshart Rd Comox BC V9M 2K8,566,linshart rd,Comox,BC,V9M2K8,59,303
+204,637 Head Street (temporary) Victoria BC V9A 5S9,637,head street temporary,Victoria,BC,V9A5S9,59,304
+205,2450 Partridge Dr Kamloops BC V2B 8G1,2450,partridge dr,Kamloops,BC,V2B8G1,59,305
+206,2680 Lawrence Avenue East Scarborough Ontario M1P4Y4,2680,lawrence avenue east,Scarborough,ON,M1P4Y4,35,306
+207,1015 Danforth Avenue Toronto Ontario M4J1M1,1015,danforth avenue,Toronto,ON,M4J1M1,35,307
+208,700 Progress Avenue Toronto Ontario M1H2Z7,700,progress avenue,Toronto,ON,M1H2Z7,35,308
+209,710 Progress Ave Scarborough Ontario M1H2X3,710,progress ave,Scarborough,ON,M1H2X3,35,309
+210,670 Progress Ave Scarborough Ontario M1H3A4,670,progress ave,Scarborough,ON,M1H3A4,35,310
+211,24 Calverley St Orillia Ontario L3V3T4,24,calverley st,Orillia,ON,L3V3T4,35,311
+212,575 WEST ST ORILLIA Ontario L3V7N6,575,west st,ORILLIA,ON,L3V7N6,35,312
+213,250 Collegiate Drive Orillia Ontario L3V7S5,250,collegiate drive,Orillia,ON,L3V7S5,35,313
+214,45 Brian Ave Angus Ontario L0M1B3,45,brian ave,Angus,ON,L0M1B3,35,314
+215,124 Letitia St Barrie Ontario L4N1P5,124,letitia st,Barrie,ON,L4N1P5,35,315
+216,350 Carlow Rd Port Stanley Ontario N5L1B6,350,carlow rd,Port Stanley,ON,N5L1B6,35,316
+217,70 Gammage St London Ontario N5Y2B1,70,gammage st,London,ON,N5Y2B1,35,317
+218,6820 Duffield St London Ontario N6P1A4,6820,duffield st,London,ON,N6P1A4,35,318
+219,156 Innes Street Ingersoll Ontario N5C2R8,156,innes street,Ingersoll,ON,N5C2R8,35,319
+220,795 Trafalgar St London Ontario N5Z1E6,795,trafalgar st,London,ON,N5Z1E6,35,320
+221,20 South Edgeware Rd St Thomas Ontario N5P2H2,20,south edgeware rd,St Thomas,ON,N5P2H2,35,321
+222,509 Waterloo St London Ontario N6B2P8,509,waterloo st,London,ON,N6B2P8,35,322
+223,371 Tecumseh Ave E London Ontario N6C1T4,371,tecumseh ave e,London,ON,N6C1T4,35,323
+224,61 Queen St Dorchester Ontario N0L1G2,61,queen st,Dorchester,ON,N0L1G2,35,324
+225,140 South Clarkson St Thunder Bay Ontario P7B4W8,140,south clarkson st,Thunder Bay,ON,P7B4W8,35,325
+226,2645 Donald St Thunder Bay Ontario P7E5X5,2645,donald st,Thunder Bay,ON,P7E5X5,35,326
+227,150 West Redwood Ave Thunder Bay Ontario P7C1Z6,150,west redwood ave,Thunder Bay,ON,P7C1Z6,35,327
+228,270 Windsor Street Thunder Bay Ontario P7B1V6,270,windsor street,Thunder Bay,ON,P7B1V6,35,328
+229,1435 Royal York Rd Etobicoke Ontario M9P3A7,1435,royal york rd,Etobicoke,ON,M9P3A7,35,329
+230,350 Dundas St W Belleville Ontario K8P1B2,350,dundas st w,Belleville,ON,K8P1B2,35,330
+231,350 Brant Ave Brantford Ontario N3T3J9,350,brant ave,Brantford,ON,N3T3J9,35,331
+232,350 Brant Ave Brantford Ontario N3T3J9,350,brant ave,Brantford,ON,N3T3J9,35,332
+233,350 Brant Ave Brantford Ontario N3T3J9,350,brant ave,Brantford,ON,N3T3J9,35,333
+234,350 Brant Ave Brantford Ontario N3T3J9,350,brant ave,Brantford,ON,N3T3J9,35,334
+235,367 The Country Way Kitchener Ontario N2B2S3,367,the country way,Kitchener,ON,N2B2S3,35,335
+236,50 Confederation Dr Kitchener Ontario N2B2X5,50,confederation dr,Kitchener,ON,N2B2X5,35,336
+237,70 Acorn Way Cambridge Ontario N1R8M5,70,acorn way,Cambridge,ON,N1R8M5,35,337
+238,255 Coronation promenade Scarborough Ontario M1E2J3,255,coronation promenade,Scarborough,ON,M1E2J3,35,338
+239,101 Afton av Welland Ontario L3B1W1,101,afton av,Welland,ON,L3B1W1,35,339
+240,2600 Grand Oak Trail Oakville Ontario L6M0R4,2600,grand oak trail,Oakville,ON,L6M0R4,35,340
+241,359 Brydges rue Mattawa Ontario P0H1V0,359,brydges rue,Mattawa,ON,P0H1V0,35,341
+242,778 Brebeuf rue Casselman Ontario K0A1M0,,rue,Casselman,ON,K0A1M0,35,342
+243,1-399 8e rue Cochrane Ontario P0L1C0,,,Cochrane,ON,P0L1C0,35,343
+244,2-399 8e rue Cochrane Ontario P0L1C0,,,Cochrane,ON,P0L1C0,35,344
+245,1515 Kensington prom. Brockville Ontario K6V6H9,1515,kensington prom,Brockville,ON,K6V6H9,35,345
+246,801 de l'Aviation prom. Ottawa Ontario K1K4R3,801,de l'aviation prom,Ottawa,ON,K1K4R3,35,346
+247,25 Wilkie Ave North Sydney NS B2A 1Y5 NS,25,wilkie ave,North Sydney,NS,B2A1Y5,12,347
+248,500 Terrace St Sydney NS B1P 6N1 NS,500,terrace st,Sydney,NS,B1P6N1,12,348
+249,"7951, avenue Dalkeith Montreal QC H1K3X6",7951,avenue dalkeith,Montreal,QC,H1K3X6,24,349
+250,"235, avenue Dunrae MontRoyal QC H3P1T5",235,avenue dunrae,Mont-Royal,QC,H3P1T5,24,350
