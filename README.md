@@ -20,8 +20,11 @@ The dataset consists of four tables: facilities_info, education_info, address_in
 
 ### Query 1: Catholic Facilities Details
 SELECT fac.facility_name, fac.facility_type, ad.address, ad.city, ad.province, ad.postal_code
+
 FROM facility_info fac
+
 INNER JOIN address_info ad ON fac.address_id = ad.address_id
+
 WHERE fac.facility_id IN (
     SELECT facility_id
     FROM facility_info
