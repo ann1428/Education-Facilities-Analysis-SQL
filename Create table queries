@@ -1,0 +1,64 @@
+CREATE TABLE education_info(
+	education_id integer PRIMARY KEY,
+	early_childhood_education_status boolean not null,
+	kindergarten_status boolean not null,
+	elementary_status boolean not null,
+	junior_secondary_status boolean not null,
+	senior_secondary_status boolean not null,
+	official_language_status boolean not null
+	);
+	
+CREATE TABLE census_info (
+	census_id integer PRIMARY KEY,
+	census_subdivision_name CHARACTER VARYING (100) not null,
+	census_subdivision_id integer not null,
+	census_metropolitan_area_name CHARACTER VARYING (50),
+	census_metropolitan_area_id integer, 
+	provider CHARACTER VARYING (50) not null
+); 
+	
+CREATE TABLE address_info (
+	address_id integer PRIMARY KEY,
+	address CHARACTER VARYING (100) not null,
+	street_num integer,
+	street_name CHARACTER VARYING (50),
+	city CHARACTER VARYING (25) not null,
+	province CHARACTER VARYING (10) not null,
+	postal_code CHARACTER VARYING (15) not null,
+	province_id integer not null,
+	census_id INTEGER not null,
+	FOREIGN KEY (census_id) REFERENCES census_info (census_id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE facility_info (
+	facility_id integer PRIMARY KEY,
+	source_id INTEGER NOT NULL,
+	facility_name CHARACTER VARYING (100), NOT NULL
+	facility_type CHARACTER VARYING (25) NOT NULL,
+	authority_name CHARACTER VARYING (100),
+	education_id INTEGER,
+	address_id INTEGER,
+	FOREIGN KEY (education_id) REFERENCES education_info (education_id) ON UPDATE CASCADE ON DELETE CASCADE,
+	FOREIGN KEY (address_id) REFERENCES address_info (address_id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+		
